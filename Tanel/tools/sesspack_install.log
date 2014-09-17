@@ -1,0 +1,252 @@
+
+=================================================================================
+
+Welcome to the Semi-Automatic Workload Repository installer!
+
+This script will create some SAWR tables and SESSPACK package in specified schema
+
+Refer to README.txt for usage and further information
+
+(c) Tanel Poder http://www.tanelpoder.com
+
+=================================================================================
+
+
+You must be already connected to your target database as SYS or any other user
+who can grant privileges on some V$ objects for preparing SAWR user
+
+
+
+
+
+
+Role created.
+
+
+Role created.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+Connected.
+
+
+
+
+
+Session altered.
+
+
+USERNAME             INST_NAME    HOST_NAME                 VERSION    STARTED  SID   SERIAL# SPID            CPID            SADDR    PADDR
+-------------------- ------------ ------------------------- ---------- -------- ----- ------- --------------- --------------- -------- --------
+PERFSTAT             LIN10G1      linux01                   10.2.0.3.0 20080504 141      1635 27378           3300:2336       436FAC88 43620F30
+
+
+
+Type created.
+
+
+Type created.
+
+
+Sequence created.
+
+
+Table created.
+
+
+Index created.
+
+
+Table altered.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+2 rows created.
+
+
+7 rows created.
+
+
+15 rows created.
+
+
+371 rows created.
+
+
+Commit complete.
+
+
+View created.
+
+
+View created.
+
+
+Package created.
+
+
+Package body created.
+
+No errors.
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Synonym created.
+
+
+Synonym created.
+
+
+Synonym created.
+
+
+Synonym created.
+
+
+Synonym created.
+
+
+Synonym created.
+
+
+Synonym created.
+
+
+Synonym created.
+
+
+Synonym created.
+
+
+Synonym created.
+
+Installation completed.
+Currently connected as perfstat@lin10g1...
+
