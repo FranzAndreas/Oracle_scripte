@@ -48,6 +48,7 @@ COLUMN other_plus_exp FORMAT a44
 COLUMN result_plus_xquery HEADING 'Result Sequence'
 
 set termout off
+@D:\work\scripte\oracle\Oracle_scripte\Tanel\i.sql
 
 col dbname new_value prompt_dbname
 select substr(global_name,1,instr(global_name,'.')-1) dbname
@@ -57,7 +58,6 @@ set sqlprompt "_USER'@'&&prompt_dbname> "
 -- set title of CMD
 col mysid new_value mysid
 select sid || ':' || serial# as mysid from v$session where sid = SYS_CONTEXT('userenv','sid');
-host title &_user@&_connect_identifier [session &mysid]
 alter session set NLS_DATE_FORMAT = 'DD.MM.YYYY HH24:MI:SS';
 
 set serveroutput on
@@ -242,3 +242,4 @@ col r_owner          format a15
 col tablespace       format a20
 col datafile         format a50
 set termout on
+
